@@ -33,7 +33,7 @@
   font-size: 250px;
   color:rgb(103, 153, 234);
   font-weight: bold;
-  font-family: sans-serif;
+
   text-transform: uppercase;
   text-shadow: var(--brShadow), 
                 var(--tlShadow);
