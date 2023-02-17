@@ -5,10 +5,6 @@
   
 }
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
   background-color: var(--colorMain);
   color: var(--colorMain);
 }
@@ -35,7 +31,7 @@
 
 .timer{
   font-size: 250px;
-  color: var(--colorMain);
+  color:rgb(103, 153, 234);
   font-weight: bold;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -45,6 +41,7 @@
 
 }
 .buttons{
+  
   color: white;
   display: flex;
   flex-direction: row;
@@ -52,6 +49,7 @@
 }
 
 .button{
+  text-align: center;
   color:white;
   margin: 20px;
   aspect-ratio: 1/1;
@@ -70,4 +68,44 @@
   background: #6f9fec;
   box-shadow: inset -5px 5px 13px #5174ac,
               inset 5px -5px 13px #8dcaff;
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .timer{
+    font-size: 25vw;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), 
+                  var(--tlShadow);
+    margin: 0px;
+  
+  }
+
+  .button{
+    text-align: center;
+    color:white;
+    margin: 20px;
+    aspect-ratio: 1/1;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(225deg, #77aafd, #648fd4);
+    box-shadow:  -5px 5px 13px #5174ac,
+                 5px -5px 13px #8dcaff;
+              }
+
+
+    .button:hover {
+      border-radius: 16px;
+      background: #6f9fec;
+      box-shadow: inset -5px 5px 13px #5174ac,
+                  inset 5px -5px 13px #8dcaff;
+    }
+
+
 }
