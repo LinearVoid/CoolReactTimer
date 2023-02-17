@@ -71,12 +71,11 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1180px) {
   
   .timer{
-    font-size: 25vw;
+    font-size: 20vw;
     font-weight: bold;
-    font-family: sans-serif;
     text-transform: uppercase;
     text-shadow: var(--brShadow), 
                   var(--tlShadow);
@@ -104,7 +103,6 @@
       border-radius: 16px;
       background: #6f9fec;
       box-shadow: inset -5px 5px 13px #5174ac,
-                  inset 5px -5px 13px #8dcaff;
     }
 
 
